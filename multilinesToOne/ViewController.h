@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MultilinesToOne.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    MultilinesToOne *multiToOne;
+}
+- (IBAction)multiLine:(id)sender;
+- (IBAction)oneLine:(id)sender;
+
 
 @end

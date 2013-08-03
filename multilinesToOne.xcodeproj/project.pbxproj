@@ -18,6 +18,8 @@
 		5B6319CA17AD20A900B21D96 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6319C917AD20A900B21D96 /* Default-568h@2x.png */; };
 		5B6319CD17AD20A900B21D96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6319CC17AD20A900B21D96 /* ViewController.m */; };
 		5B6319D017AD20A900B21D96 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6319CE17AD20A900B21D96 /* ViewController.xib */; };
+		5B6319D917AD20F000B21D96 /* MultilinesToOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6319D817AD20F000B21D96 /* MultilinesToOne.m */; };
+		5B6319DC17AD3A8B00B21D96 /* MultilineToOneLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6319DB17AD3A8B00B21D96 /* MultilineToOneLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		5B6319CB17AD20A900B21D96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5B6319CC17AD20A900B21D96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B6319CF17AD20A900B21D96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5B6319D717AD20F000B21D96 /* MultilinesToOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultilinesToOne.h; sourceTree = "<group>"; };
+		5B6319D817AD20F000B21D96 /* MultilinesToOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultilinesToOne.m; sourceTree = "<group>"; };
+		5B6319DA17AD3A8B00B21D96 /* MultilineToOneLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultilineToOneLabel.h; sourceTree = "<group>"; };
+		5B6319DB17AD3A8B00B21D96 /* MultilineToOneLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultilineToOneLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		5B6319A717AD20A900B21D96 = {
 			isa = PBXGroup;
 			children = (
+				5B6319D617AD20D400B21D96 /* LIB */,
 				5B6319B917AD20A900B21D96 /* multilinesToOne */,
 				5B6319B217AD20A900B21D96 /* Frameworks */,
 				5B6319B117AD20A900B21D96 /* Products */,
@@ -105,6 +112,18 @@
 				5B6319C917AD20A900B21D96 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B6319D617AD20D400B21D96 /* LIB */ = {
+			isa = PBXGroup;
+			children = (
+				5B6319DA17AD3A8B00B21D96 /* MultilineToOneLabel.h */,
+				5B6319DB17AD3A8B00B21D96 /* MultilineToOneLabel.m */,
+				5B6319D717AD20F000B21D96 /* MultilinesToOne.h */,
+				5B6319D817AD20F000B21D96 /* MultilinesToOne.m */,
+			);
+			name = LIB;
+			path = multilinesToOne/LIB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +195,8 @@
 				5B6319C017AD20A900B21D96 /* main.m in Sources */,
 				5B6319C417AD20A900B21D96 /* AppDelegate.m in Sources */,
 				5B6319CD17AD20A900B21D96 /* ViewController.m in Sources */,
+				5B6319D917AD20F000B21D96 /* MultilinesToOne.m in Sources */,
+				5B6319DC17AD3A8B00B21D96 /* MultilineToOneLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

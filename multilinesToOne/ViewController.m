@@ -8,22 +8,31 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-
-@end
 
 @implementation ViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    multiToOne = [[MultilinesToOne alloc] initWithTxt:@"Doduck.com prototype your ideas. And Goi is awsomemqrtin is the mushy"];
+    multiToOne.frame = CGRectMake(10, 50, 100, 30);
+    multiToOne.backgroundColor = [UIColor yellowColor];
+    [multiToOne createOnMultiLines];
+    [self.view addSubview:multiToOne];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (IBAction)multiLine:(id)sender {
+    [multiToOne onMultiLine];
+}
+
+- (IBAction)oneLine:(id)sender {
+    [multiToOne oneline];
+}
+
+-(void)dealloc{
+    [multiToOne release];
+    [super dealloc];
 }
 
 @end
