@@ -14,7 +14,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    multiToOne = [[MultilinesToOne alloc] initWithTxt:@"Doduck.com prototype your ideas. And Goi is awsomemqrtin is the mushy"];
+    multiToOne = [[MultilinesToOne alloc] initWithTxt:@"doduck.com prototype your ideas. This prototype animate multi-lines text to single line"];
     multiToOne.frame = CGRectMake(10, 50, 100, 30);
     multiToOne.backgroundColor = [UIColor yellowColor];
     [multiToOne createOnMultiLines];

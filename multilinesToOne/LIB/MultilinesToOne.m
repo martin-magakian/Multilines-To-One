@@ -11,7 +11,7 @@
 
 @implementation MultilinesToOne
 
-#define SINGLE_MULTILINE_ANNIMATION_DURATION 0.4
+#define SINGLE_MULTILINE_ANNIMATION_DURATION 0.9
 
 @synthesize font,text,originalSize,oneLineSize;
 
