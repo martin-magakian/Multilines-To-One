@@ -5,7 +5,7 @@ Animate UITextLabel from multi-line to single line.
 
 
 ![Animate multi-ligne to single line UITextLabel]
-(/README_src/multi-to-signle.gif "multi-line to single line")
+(/README_src/multi-to-single.gif "multi-line to single line")
 
 
 Contact
